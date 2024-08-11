@@ -597,6 +597,8 @@ padding-left: 10px;
 .team-img{
     max-width: 328px;
     height:279px;
+   background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.503), black);
+   opacity: 0.85;
     /* border:2px solid yellow; */
     
 }
@@ -646,13 +648,14 @@ padding-left: 10px;
     }
     .banner-container{
       height: auto;
-background: none;
+      background: none;
     }
     .banner-nav-container{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin: 20px  ;
+
         /* margin-top: 50px; */
     }
    
@@ -667,7 +670,8 @@ background: none;
     }
     .card-2{
         top: -110%;
-    right: -10px;
+        right: -10px;
+
     }
     .habit-container{
         height: auto;
@@ -698,7 +702,7 @@ background: none;
 }
 .team-image-content{
     grid-template-columns: 1fr;
-    height: auto;
+    height:auto;
 }
 
 
