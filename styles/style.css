@@ -482,20 +482,20 @@ background-color: rgba(48, 48, 48, 0.726);
    
 }
 #specific{
-    margin-top: 48px;
+    margin-top: 45px;
 }
 #specific1{
-    margin-top: 32px;
+    margin-top: 30px;
 }
 
 #specific2{
-    margin-top: 27px;
+    margin-top: 25px;
 }
 #specific3{
-    margin-top: 32px;
+    margin-top: 29px;
 }
 #specific4{
-    margin-top: 46px;
+    margin-top: 44px;
 }
 
 .bmi-calculator-content{
@@ -926,6 +926,7 @@ ol li{
 .team-image-content{
     grid-template-columns: 1fr;
     height:auto;
+    
     
 }
 .footer-container{
