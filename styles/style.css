@@ -21,7 +21,7 @@
   /* header section style */
 
 .banner-container{
-    max-width: 1460px;
+    width: 100%;
     height: 692px;
     /* border-bottom: 1px solid rgba(17, 17, 17, 1.00); */
     background: linear-gradient(to bottom,
@@ -520,7 +520,7 @@ background-color: rgba(48, 48, 48, 0.726);
     font-weight: Regular;
 }
 .bmi-section-container{
-  width: 1440px;
+width: 100%;
     height:500px;
     background-color: rgba(255, 255, 255, 0.026);
 /* border: 2px solid white; */
@@ -645,6 +645,8 @@ padding-left: 10px;
     margin-bottom: 10px;
     margin-right: 5px; 
  padding-left: 8px; 
+ border-right: 10px solid rgba(255, 255, 255, 0);
+
 /* border:2px solid red; */
 
 }
@@ -662,6 +664,7 @@ padding-left: 10px;
     margin-bottom: 25px;
     margin-right: 5px;
 padding-left: 10px;
+border-right: 10px solid rgba(255, 255, 255, 0);
 }
 
 .team-container{
@@ -857,8 +860,9 @@ ol li{
         
     }
     .banner-container{
+        width:100%;
       height: auto;
-      background: none;
+      /* background: none; */
     }
     .banner-nav-container{
         display: flex;
@@ -912,16 +916,29 @@ ol li{
 
 
 .bmi-section-container{
+  width:100%;
     height: auto;
+    margin: 0 auto;
 }
 .bmi-calculator-container{
+
     grid-template-columns: 1fr;
     height: auto;
     gap: 40px;
-    margin-left: -40px;
+    margin-left: -30px;
 }
+/* .characteristics{
+    max-width: 200px;
+}
+.gender{
+    width: 211px;
+}
+.activity{
+    width: 430px;
+} */
 .team-container{
     height: auto;
+    margin-top: 50px;
 }
 .team-image-container{
     height:auto;
@@ -929,6 +946,7 @@ ol li{
 .team-image-content{
     grid-template-columns: 1fr;
     height:auto;
+    margin: 50px;
     
     
 }
